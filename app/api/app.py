@@ -1,4 +1,4 @@
-from flask import flash, Flask, jsonify, redirect
+from flask import flash, Flask, jsonify, redirect, request, url_for
 from utilities import predict_pipeline
 
 app = Flask(__name__)
